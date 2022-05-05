@@ -18,9 +18,9 @@ def calculate_distances(arg1, arg2, structure):
     CDR3_start = 105
     CDR3_end = 117
 
-    structure_id = arg1.split("_TCR-pMHC.pdb")[0]
+    structure_id = arg1.split("_TCR-pMHC.pdb")[0].split(".pdb")[0]
     filename = "renumbered_pdb/" + structure_id + "_renumbered.pdb"
-    folder = "path_to_folder/" + arg2
+    folder = arg2
     if not os.path.exists(folder+"Results_by_pdb/distances/"):
         os.mkdir(folder+"Results_by_pdb/distances/")
 
