@@ -12,12 +12,12 @@
 # 5. Set the name of the job.
 #$ -N atlas_feature_extraction
 # .Set up array so we can loop over structures
-#$ -t 1-550:50
+#$ -t 1-5:50
 # 6. Set the working directory to somewhere in your scratch space.  This is
 # a necessary step with the upgraded software stack as compute nodes cannot
 # write to $HOME.
 # Replace "<your_UCL_id>" with your UCL user ID :)
-#$ -wd /home/regmili/Scratch/PDB/STCRDab/final_run2/jobs_logs
+#$ -wd /home/regmili/Scratch/WetLabModels
 # 7. Your work *must* be done in $TMPDIR
 #cd $TMPDIR #
 # 8. Run the application.
