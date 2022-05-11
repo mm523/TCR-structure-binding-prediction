@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 structure_id = argv[1].split("_TCR-pMHC.pdb")[0]
-folder = "path_to_folder/" + argv[2]
+folder = "/home/regmili/Scratch/" + argv[2]
 folder1 = folder + "model_outputs/"
 
 chains = ["pep", "mhc", "alpha", "beta"]

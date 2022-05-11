@@ -36,7 +36,7 @@ class TCRpep_select(Select): #function to create TCR + peptide PDB
 
 structure_id = argv[1].split("_TCR-pMHC.pdb")[0]
 filename = "renumbered_pdb/" + structure_id + "_renumbered.pdb"
-folder = "path_to_folder/" + argv[2]
+folder = "/home/regmili/Scratch/" + argv[2]
 if not os.path.exists(folder+"Results_by_pdb/energies/"):
     os.mkdir(folder+"Results_by_pdb/energies/")
 if not os.path.exists(folder+"TCR_peptide_only/"):
