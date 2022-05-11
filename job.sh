@@ -52,7 +52,7 @@ for (( i=$SGE_TASK_ID; i<$SGE_TASK_ID+100; i++ ))
    /home/regmili/bin/modeller9.23/bin/modpy.sh python /home/regmili/Scratch/PDB/tcrpmhc_models/tcrpmhc_models/__main__.py -t "$line" -n "$id"  -p /home/regmili/Scratch/WetLabModels/model_outputs/
    conda deactivate
    conda activate pyrosetta
-   cd /home/regmili/Scratch/TCR-structure-binding-prediciton
+   cd /home/regmili/Scratch/TCR-structure-binding-prediction
    git checkout WetLabModels
    cp "/home/regmili/Scratch/WetLabModels/model_outputs/${structure_name}" "/home/regmili/Scratch/WetLabModels/all_pdbs/${structure_name}"
    python ./processing_and_prediction/01_dist_atchley.py ${structure_name} WetLabModels/ > /home/regmili/Scratch/WetLabModels/features_logs/${id}_log.txt
