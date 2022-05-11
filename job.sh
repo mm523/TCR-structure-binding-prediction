@@ -10,7 +10,7 @@
 # 4. Request 15 gigabyte of TMPDIR space (default is 10 GB)
 #$ -l tmpfs=15G
 # 5. Set the name of the job.
-#$ -N 11052022_models_feature_extraction
+#$ -N models_feature_extraction
 # .Set up array so we can loop over structures
 #$ -t 1-5:50
 # 6. Set the working directory to somewhere in your scratch space.  This is
