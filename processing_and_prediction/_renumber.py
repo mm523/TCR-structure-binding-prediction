@@ -12,7 +12,7 @@ def renumbering(arg1, arg2):
     seq_match = SequenceMatcher()
     structure_id = arg1.split("_TCR-pMHC.pdb")[0].split(".pdb")[0]
     filename = "all_pdbs/" + arg1
-    folder = arg2
+    folder = "/home/regmili/Scratch/" + arg2
 
     pep_chain = "P"
     alpha_chain = "A"
