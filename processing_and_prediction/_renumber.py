@@ -11,7 +11,7 @@ import structure_preprocess_functions as my_preproc
 def renumbering(arg1, arg2):
     seq_match = SequenceMatcher()
     structure_id = arg1.split("_TCR-pMHC.pdb")[0].split(".pdb")[0]
-    filename = arg1
+    filename = "all_pdbs/" + arg1
     folder = arg2
 
     pep_chain = "P"
