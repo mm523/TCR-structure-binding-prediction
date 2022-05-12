@@ -77,7 +77,7 @@ cleanATOM(structure_id +"_TCR_peptide.pdb")
 pdb_TCR_pep = pose_from_pdb(str(folder + "TCR_peptide_only/" + structure_id +"_TCR_peptide.clean.pdb"))
 #print("loaded")
 #print("--------------------------------")
-os.chdir("path_to_folder/")
+os.chdir("/home/regmili/Scratch/")
 
 print("scoring pose...")
 scorefxn.show(pdb_TCR_pep)

@@ -15,7 +15,7 @@ def atchley_factors(arg1, arg2):
         os.mkdir(folder+"Results_by_pdb/sequences/")
 
     aa_letters = ["A", "R", "N", "D", "C", "E", "Q", "G", "H", "I", "L", "K", "M", "F", "P", "S", "T", "W", "Y", "V"]
-    Atchley_factors = pd.read_csv("path_to_folder/Atchley_factors_table.csv", encoding='utf-8-sig')
+    Atchley_factors = pd.read_csv("/home/regmili/Scratch/PDB/STCRDab/final_run2/Atchley_factors_table.csv", encoding='utf-8-sig')
     chains = {}
     chains["peptide"] = "P"
     chains["alpha"] = "A"
