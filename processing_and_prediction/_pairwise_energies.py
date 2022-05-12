@@ -8,7 +8,7 @@ import structure_preprocess_functions as my_preproc
 
 def energies_of_interest(arg1, arg2):
     structure_id = arg1.split("_TCR-pMHC.pdb")[0].split(".pdb")[0]
-    folder = "path_to_folder/" + arg2
+    folder = "/home/regmili/Scratch/" + arg2
     folder1 = folder+ "Results_by_pdb/energies/"
 
     structure_names = []

@@ -20,7 +20,7 @@ def calculate_distances(arg1, arg2, structure):
 
     structure_id = arg1.split("_TCR-pMHC.pdb")[0].split(".pdb")[0]
     filename = "renumbered_pdb/" + structure_id + "_renumbered.pdb"
-    folder = arg2
+    folder = "/home/regmili/Scratch/" + arg2
     if not os.path.exists(folder+"Results_by_pdb/distances/"):
         os.mkdir(folder+"Results_by_pdb/distances/")
 
