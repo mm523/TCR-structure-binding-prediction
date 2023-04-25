@@ -1,6 +1,6 @@
 # Extract-info-from-PDB
 
-These are the scripts that allow to start off with a TCR sequence, model it and extract interface information. The script relies on TCRpMHCmodels, which I obtained in command line form from Kamilla Jensen (main author).
+These are the scripts that allow to start off with a TCR sequence, model it and extract interface information (https://www.frontiersin.org/articles/10.3389/fphys.2021.730908/full). The script relies on TCRpMHCmodels, which I obtained in command line form from Kamilla Jensen (main author).
 
 The main pipeline scripts are in the **processing_and_prediction** folder and are the following:
 
